@@ -1,0 +1,108 @@
+/* line 4, D:/github/project0-1/scss/sass.scss */
+body {
+  font: 100% Roboto, sans-serif;
+  color: #333;
+}
+
+/* line 10, D:/github/project0-1/scss/sass.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 16, D:/github/project0-1/scss/sass.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 18, D:/github/project0-1/scss/sass.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/* line 31, D:/github/project0-1/scss/sass.scss */
+.box {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+/* This CSS will print because %message-shared is extended. */
+/* line 34, D:/github/project0-1/scss/sass.scss */
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+/* line 50, D:/github/project0-1/scss/sass.scss */
+.success {
+  border-color: green;
+}
+
+/* line 55, D:/github/project0-1/scss/sass.scss */
+.error {
+  border-color: red;
+}
+
+/* line 60, D:/github/project0-1/scss/sass.scss */
+.warning {
+  border-color: yellow;
+}
+
+/* line 65, D:/github/project0-1/scss/sass.scss */
+.container {
+  width: 100%;
+}
+
+/* line 69, D:/github/project0-1/scss/sass.scss */
+article[role="main"] {
+  float: left;
+  width: 62.5%;
+}
+
+/* line 74, D:/github/project0-1/scss/sass.scss */
+aside[role="complementary"] {
+  float: right;
+  width: 31.25%;
+}
+
+/* line 80, D:/github/project0-1/scss/sass.scss */
+.title {
+  font-family: Arial, cursive;
+  font-size: 3em;
+}
+
+/* line 84, D:/github/project0-1/scss/sass.scss */
+table {
+  border: 2px solid #000;
+  width: 50%;
+}
+
+/* line 90, D:/github/project0-1/scss/sass.scss */
+th, td {
+  border: solid 1px grey;
+  text-align: center;
+  white-space: nowrap;
+  padding: 4px;
+}
+
+/* line 98, D:/github/project0-1/scss/sass.scss */
+th {
+  background-color: darkgrey;
+}
+
+/* line 103, D:/github/project0-1/scss/sass.scss */
+td {
+  background-color: lightgrey;
+}
+
+/* line 107, D:/github/project0-1/scss/sass.scss */
+#main {
+  background-image: linear-gradient(red, white, blue);
+}
+
+/*# sourceMappingURL=../css/sass.map */
