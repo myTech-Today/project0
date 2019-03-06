@@ -1,5 +1,15 @@
-body h1 h2 {
-  font: 100% Srisakdi, sans-serif;
+body {
+  font: 100% Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  font: 100% "Srisakdi", sans-serif;
+  color: #333;
+}
+
+h2 {
+  font: 100% arial;
   color: #333;
 }
 

@@ -1,8 +1,19 @@
-$font-stack:    Srisakdi, sans-serif;
+$font-stack:    Arial, sans-serif;
+$font-test:    'Srisakdi', sans-serif;
 $primary-color: #333;
 
-body h1 h2 {
+body {
   font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h1 {
+  font: 100% $font-test;
+  color: $primary-color;
+}
+
+h2 {
+  font: 100% arial;
   color: $primary-color;
 }
 
