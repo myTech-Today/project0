@@ -1,7 +1,7 @@
 $font-stack:    Srisakdi, sans-serif;
 $primary-color: #333;
 
-body, h1, h2 {
+body h1 h2 {
   font: 100% $font-stack;
   color: $primary-color;
 }
