@@ -1,5 +1,5 @@
-$font-stack:    Arial, sans-serif;
-$font-test:    'Srisakdi', sans-serif;
+$font-stack:    Roboto, sans-serif;
+$font-test:    Srisakdi, serif;
 $primary-color: #333;
 
 body {
@@ -13,8 +13,8 @@ h1 {
 }
 
 h2 {
-  font: 100% arial;
-  color: $primary-color;
+  font: 100% Arial;
+  color: green;
 }
 
 nav {
