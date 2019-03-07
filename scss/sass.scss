@@ -105,6 +105,9 @@ th, td {
   padding: 4px;
 }
 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
 th {
   background-color:darkgrey;
