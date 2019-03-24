@@ -39,7 +39,7 @@ nav {
   transform: $property;
 }
 
-.box { @include transform(rotate(30deg)); }
+.box { @include transform(rotate(30deg)); z-index: -1;}
 
 /* This CSS will print because %message-shared is extended. */
 %message-shared {
